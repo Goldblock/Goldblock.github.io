@@ -4,10 +4,28 @@ html, body { height: 100%; }
 body {
   text-align: center;
   line-height: 1.8em;
+
 }
 
 #content{
   width: 960px;
   text-align: left;
   margin: 0 auto;
+}
+
+pre{
+  font-family: monospace;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+marquee{
+  font-family: monospace;
+  background: cyan;
+  font-weight: bold;
+  color: blue;
+text-decoration: blink;
+}
+blink{
+
 }
