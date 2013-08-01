@@ -1,0 +1,13 @@
+
+html, body { height: 100%; }
+
+body {
+  text-align: center;
+  line-height: 1.8em;
+}
+
+#content{
+  width: 960px;
+  text-align: left;
+  margin: 0 auto;
+}
