@@ -2,21 +2,34 @@
 html, body { height: 100%; }
 
 body {
-  text-align: center;
+  color: #111111;
   line-height: 1.8em;
-
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-#wrap {
-
+#available-for-hire {
+  background: #339999;
+  color: #FFF;
+  font-family: monospace;
+  font-size: 1.5em;
+  margin-bottom: 3em;
+  text-decoration: blink;
 }
 
 #header {
+  font-size: 1.5em;
   text-align: center;
+  margin-bottom: 4em;
 }
 
 #header pre {
   text-align: left;
+}
+
+#header table {
+  width: 100%;
 }
 
 #header td {
@@ -25,8 +38,8 @@ body {
 }
 
 #header img {
-  width: 200px;
-  height: 200px;
+  *width: 200px;
+  max-width: 200px;
 }
 
 #header pre {
@@ -34,17 +47,28 @@ body {
   padding: 0;
 }
 
+#brand {
+  background: url(../images/logo-goldblock.png) center 16px no-repeat;
+}
+
+#brand pre {
+  display: block;
+  min-height: 100px;
+  opacity: 0;
+}
+
 #animated-computer {
   background: #F8F9F5;
   border-radius: 100%;
+  margin-bottom: 1em
 }
 
-#footer {
-
+#wrap {
+  padding: 0 1em 2em;
 }
 
 #content{
-  width: 960px;
+  max-width: 960px;
   text-align: left;
   margin: 0 auto;
 }
@@ -55,10 +79,74 @@ pre {
   line-height: 1em;
 }
 
-marquee{
-  font-family: monospace;
-  background: cyan;
-  font-weight: bold;
-  color: blue;
-  text-decoration: blink;
+.about {
+  text-align: center;
 }
+
+.about p {
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1.4em auto 0;
+  max-width: 600px;
+}
+
+hr {
+  width: 20%;
+  margin: 1em auto;
+}
+
+.contact {
+  font-size: 0.8em;
+}
+
+#services-work  {
+  margin: 0 auto 8em;
+  max-width: 720px;
+}
+
+td {
+  vertical-align: top;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  color: #0074D9;
+}
+
+#services {
+  padding-right: 5em;
+}
+
+#services ul {
+  margin: 0 0 0 1em;
+}
+
+#services li {
+  line-height: 1.2;
+  margin-bottom: 0.6em;
+}
+
+#work {
+  border-left: 1px dotted grey;
+  padding-left: 2em;
+}
+
+#work ul {
+  list-style: none;
+}
+
+#work h3 {
+  margin-bottom: 0;
+}
+
+#work p {
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+
+
+
