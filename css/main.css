@@ -7,13 +7,49 @@ body {
 
 }
 
+#wrap {
+
+}
+
+#header {
+  text-align: center;
+}
+
+#header pre {
+  text-align: left;
+}
+
+#header td {
+  padding: 0;
+  width: 30%;
+}
+
+#header img {
+  width: 200px;
+  height: 200px;
+}
+
+#header pre {
+  margin: 0;
+  padding: 0;
+}
+
+#animated-computer {
+  background: #F8F9F5;
+  border-radius: 100%;
+}
+
+#footer {
+
+}
+
 #content{
   width: 960px;
   text-align: left;
   margin: 0 auto;
 }
 
-pre{
+pre {
   font-family: monospace;
   font-weight: bold;
   line-height: 1em;
@@ -24,8 +60,5 @@ marquee{
   background: cyan;
   font-weight: bold;
   color: blue;
-text-decoration: blink;
-}
-blink{
-
+  text-decoration: blink;
 }
